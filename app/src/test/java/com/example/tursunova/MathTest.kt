@@ -8,4 +8,9 @@ class MathTest {
     fun addTest() {
         Assert.assertEquals(4, 2 + 2)
     }
+    @Test
+    fun subtraction() {
+        Assert.assertEquals(2, 4 - 2)
+    }
+
 }
