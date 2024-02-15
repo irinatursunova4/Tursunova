@@ -13,4 +13,8 @@ class MathTest {
         Assert.assertEquals(2, 4 - 2)
     }
 
+    @Test
+    fun multiplication() {
+        Assert.assertEquals(9, 3 * 3)
+    }
 }
